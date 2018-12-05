@@ -1,5 +1,6 @@
 #include "MainMenu.h"
 #include "BlackJack.h"
+#include "Slot.h"
 
 enum MenuOptions
 {
@@ -36,7 +37,7 @@ int main()
 		}
 	case SlotMachine:
 	{
-		//call slot machine
+		Slot_Machine(Player_Coins);
 		break;
 	}
 	case Roulette:
