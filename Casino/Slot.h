@@ -8,3 +8,4 @@
 using namespace std;
 
 void Slot_Machine(int &coins);
+
